@@ -31,8 +31,6 @@ Through this staged design, the proposed framework effectively balances global s
 
 This repository currently includes:
 - Partial implementation of the proposed network architecture  
-- Dataset organization structure  
-- Configuration files and testing scripts  
 
 Additional components, including full training code, complete dataset descriptions, and extended evaluation scripts, will be **continuously updated** in future revisions of this repository.
 
