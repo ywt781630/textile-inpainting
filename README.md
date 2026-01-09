@@ -42,12 +42,6 @@ The dataset used in this work consists of ancient textile images acquired throug
 
 ---
 
-## Requirements
-
-Relevant dependencies and environment configurations will be documented as the codebase is further released and stabilized.
-
----
-
 ## Citation
 
 If you find this work useful for your research, please consider citing our paper. Citation information will be added upon publication.
