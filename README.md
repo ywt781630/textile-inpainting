@@ -18,7 +18,7 @@ Our method adopts a **three-stage restoration architecture** that progressively 
    In the first stage, the global structural layout of the textile image is modeled. We introduce a codebook-based vector quantization strategy to discretize intermediate structural representations, which enables efficient Transformer-based modeling while reducing computational complexity. This stage focuses on capturing long-range dependencies and preserving the semantic consistency of repetitive textile patterns.
 
 2. **Texture Refinement Stage**  
-   Given the generated structural guidance, the second stage emphasizes local texture synthesis. Convolutional neural networks are employed to recover fine-grained textile details, ensuring that the restored regions are visually coherent with surrounding textures and material characteristics.
+ The second stage emphasizes local texture synthesis. Convolutional neural networks are employed to recover fine-grained textile details, ensuring that the restored regions are visually coherent with surrounding textures and material characteristics.
 
 3. **Image Completion Stage**  
    In the final stage, structure and texture features are fused to produce the completed image. This stage further refines boundary transitions and improves overall visual fidelity, resulting in restorations that are both structurally consistent and perceptually realistic.
@@ -32,7 +32,7 @@ Through this staged design, the proposed framework effectively balances global s
 This repository currently includes:
 - Partial implementation of the proposed network architecture  
 
-Additional components, including full training code, complete dataset descriptions, and extended evaluation scripts, will be **continuously updated** in future revisions of this repository.
+Additional components, including full training code, complete dataset descriptions, and extended evaluation scripts, will be continuously updated in future revisions of this repository.
 
 ---
 
