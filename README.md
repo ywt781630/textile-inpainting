@@ -14,11 +14,12 @@ The restoration of ancient textile images is challenging due to severe degradati
 
 Our method adopts a **three-stage restoration architecture** that progressively reconstructs textile images by decoupling structure modeling and texture synthesis:
 
-1. **Structure Generation Stage**  
+1. **Texture Refinement Stage**  
+ The second stage emphasizes local texture synthesis. Convolutional neural networks are employed to recover fine-grained textile details, ensuring that the restored regions are visually coherent with surrounding textures and material characteristics.
+
+2. **Structure Generation Stage**  
    In the first stage, the global structural layout of the textile image is modeled. We introduce a codebook-based vector quantization strategy to discretize intermediate structural representations, which enables efficient Transformer-based modeling while reducing computational complexity. This stage focuses on capturing long-range dependencies and preserving the semantic consistency of repetitive textile patterns.
 
-2. **Texture Refinement Stage**  
- The second stage emphasizes local texture synthesis. Convolutional neural networks are employed to recover fine-grained textile details, ensuring that the restored regions are visually coherent with surrounding textures and material characteristics.
 
 3. **Image Completion Stage**  
    In the final stage, structure and texture features are fused to produce the completed image. This stage further refines boundary transitions and improves overall visual fidelity, resulting in restorations that are both structurally consistent and perceptually realistic.
